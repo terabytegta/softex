@@ -1,0 +1,21 @@
+<!DOCTYPEhtml >
+< html  lang =" pt-br " >
+< cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  name =" janela de visualização " conteúdo =" largura=largura do dispositivo, escala inicial=1,0 " >
+    < title > Calculadora de Notas </ title >
+</ cabeça >
+< estilo do corpo  =" cor de fundo: #ccc; " >
+    <br> <br> <br> _ _ _ _ _ _
+    < h1  style =" display: flex;justify-content: center; align-items: center; " > Pressione a tecla "F5" para reiniciar o Sistema! </ h1 >
+    < script >
+        var  nota1  =  parseFloat ( prompt ( "Digite a primeira nota: " ) ) ;
+        var  nota2  =  parseFloat ( prompt ( "Digite a segunda nota: " ) ) ;
+        var  soma  =  nota1  +  nota2 ;
+        var  falta  =  21  -  soma ;
+
+        alert ( "Na proxima prova o aluno precisa tirar no mínimo "   +   falta  +  " para ser aprovado com '7' !!" ) ;
+    </ script >
+
+</ corpo >
+</ html >
