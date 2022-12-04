@@ -1,0 +1,47 @@
+<!DOCTYPEhtml >
+< html  lang =" pt-br " >
+< cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  name =" janela de visualização " conteúdo =" largura=largura do dispositivo, escala inicial=1,0 " >
+    < título > Calculadora JS </ título >
+</ cabeça >
+< estilo do corpo  =" cor de fundo: #ccc; " >
+    < br > < br >
+    < h1  style =" display: flex;justify-content: center; align-items: center; " > Pressione a tecla "F5" para reiniciar a Calculadora! </ h1 >
+
+    < script >
+        var  n1  =  parseInt ( prompt ( "Digite o primeiro valor: " ) ) ;
+        var  oper  =  prompt ( "Escolha uma das 4 operações matemáticas:" ) ;
+        var  n2  =  parseInt ( prompt ( "Digite o segundo valor: " ) ) ;
+        varresultado  = 0 ; _  
+        var  resto  =  0 ;
+
+        alternar ( operar ) {
+            caso  "+" :
+                resultado  =  n1  +  n2 ;
+                alerta ( resultado )
+                parar
+            caso  "-" :
+                resultado  =  n1  -  n2 ;
+                alerta ( resultado )
+                parar
+            caso  "*" :
+                resultado  =  n1  *  n2 ;
+                alerta ( resultado )
+                parar
+            caso  "/" :
+                se  ( n2  ==  0 ) {
+                    alert ( "Não é possível dividir um número por '0'!! Tente novamente!" )
+                }
+                outra coisa {
+                    resultado  =  n1  /  n2 ;
+                    restante  =  n1  %  n2
+                    alert ( resultado  +  " o resto da divisão é "  +  resto )
+                }
+                parar
+            padrão :
+                alert ( "Você digitou uma operação inválida!" ) ;
+        }
+    </ script >
+</ corpo >
+</ html >
