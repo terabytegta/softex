@@ -1,0 +1,13 @@
+<!DOCTYPEhtml >
+< html  lang =" en " >
+< cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  name =" janela de visualização " conteúdo =" largura=largura do dispositivo, escala inicial=1,0 " >
+    < título > Atividade 2.2 </ título >
+</ cabeça >
+< corpo >
+    < script >
+     alert ( "Eu optei por usar o vscode por estar mais familiarizado com o mesmo e por ser o mais completo!" )
+    </ script >
+</ corpo >
+</ html >
